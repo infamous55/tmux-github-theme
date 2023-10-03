@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+
+# the github colorblind palette
+black="#0d1117"
+black_bright="#161b22"
+white="#b1bac4"
+white_bright="#b1bac4"
+gray="#6e7681"
+red="#ec8e2c"
+red_bright="#fdac54"
+green="#58a6ff"
+green_bright="#79c0ff"
+yellow="#d29922"
+yellow_bright="#e3b341"
+blue="#58a6ff"
+blue_bright="#79c0ff"
+magenta="#bc8cff"
+magenta_bright="#d2a8ff"
+cyan="#76e3ea"
+cyan_bright="#b3f0ff"
