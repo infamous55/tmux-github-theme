@@ -20,14 +20,14 @@ tmux set-window-option -g window-status-activity-style "italics"
 tmux set-window-option -g window-status-bell-style "bold"
 
 # status style
-tmux set-option -g status-style "bg=#0d1117,fg=#ffffff"
+tmux set-option -g status-style "bg=${black},fg=${white}"
 
 # message style
-tmux set-option -g message-style "bg=#f7768e,fg=#1f2335"
+tmux set-option -g message-style "bg=${yellow_bright},fg=${black},bold"
 
 # border color
-tmux set-option -g pane-active-border-style "fg=#737aa2"
-tmux set-option -g pane-border-style "fg=#292e42"
+tmux set-option -g pane-active-border-style "fg=${white}"
+tmux set-option -g pane-border-style "fg=${gray}"
 
 # left side
 tmux set-option -g status-left-length 100
