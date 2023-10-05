@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-# the github colorblind palette
+# the github dark colorblind palette
 black="#0d1117"
 black_bright="#161b22"
+gray="#484f58"
+gray_bright="#6e7681"
 white="#b1bac4"
-white_bright="#b1bac4"
-gray="#6e7681"
+white_bright="#ffffff"
 red="#ec8e2c"
 red_bright="#fdac54"
 green="#58a6ff"
@@ -16,5 +17,5 @@ blue="#58a6ff"
 blue_bright="#79c0ff"
 magenta="#bc8cff"
 magenta_bright="#d2a8ff"
-cyan="#76e3ea"
-cyan_bright="#b3f0ff"
+cyan="#39c5cf"
+cyan_bright="#56d4dd"

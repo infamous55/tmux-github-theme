@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# the github dark dimmed palette
+black="#545d68"
+black_bright="#636e7b"
+gray="#636e7b"
+gray_bright="#768390"
+white="#909dab"
+white_bright="#cdd9e5"
+red="#f47067"
+red_bright="#ff938a"
+green="#57ab5a"
+green_bright="#6bc46d"
+yellow="#c69026"
+yellow_bright="#daaa3f"
+blue="#539bf5"
+blue_bright="#6cb6ff"
+magenta="#b083f0"
+magenta_bright="#dcbdfb"
+cyan="#39c5cf"
+cyan_bright="#56d4dd"

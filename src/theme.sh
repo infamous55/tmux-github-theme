@@ -11,7 +11,26 @@ export LC_ALL=en_US.UTF-8
 # include the other files
 CURRENT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$CURRENT_DIR/utils.sh"
-source "$CURRENT_DIR/colors.sh"
+
+# load the correct palette
+color_variation=$(get_tmux_option "@color_variation" "dark")
+case $color_variation in
+dark_dimmed)
+	source "$CURRENT_DIR/colors/dark-dimmed.sh"
+	;;
+dark_high_contrast)
+	source "$CURRENT_DIR/colors/dark-high-contrast.sh"
+	;;
+dark_colorblind)
+	source "$CURRENT_DIR/colors/dark-colorblind.sh"
+	;;
+dark_tritanopia)
+	source "$CURRENT_DIR/colors/dark-tritanopia.sh"
+	;;
+*)
+	source "$CURRENT_DIR/colors/dark.sh"
+	;;
+esac
 
 # activity style and bell style,
 # check https://man.openbsd.org/OpenBSD-current/man1/tmux.1#acs
