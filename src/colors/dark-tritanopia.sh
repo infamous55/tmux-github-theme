@@ -18,4 +18,4 @@ blue_bright="#79c0ff"
 magenta="#bc8cff"
 magenta_bright="#d2a8ff"
 cyan="#39c5cf"
-cyan_bright="#56d4dd
+cyan_bright="#56d4dd"
