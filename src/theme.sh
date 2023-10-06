@@ -42,7 +42,7 @@ tmux set-window-option -g window-status-bell-style "bold"
 tmux set-option -g status-style "bg=${black},fg=${black}"
 
 # message style
-tmux set-option -g message-style "bg=${red_bright},fg=${black},bold"
+tmux set-option -g message-style "bg=${red},fg=${black},bold"
 
 # border color
 tmux set-option -g pane-active-border-style "fg=${white}"
