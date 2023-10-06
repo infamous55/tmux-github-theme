@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # the github dark dimmed palette
-black="#545d68"
-black_bright="#636e7b"
+black="#22272e"
+black_bright="#545d68"
 gray="#636e7b"
 gray_bright="#768390"
 white="#909dab"

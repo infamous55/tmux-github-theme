@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 # the github dark high contrast palette
-black="#7a828e"
-black_bright="#9ea7b3"
+black="#0a0c10"
+black_bright="#7a828e"
 gray="#9ea7b3"
 gray_bright="#bdc4cc"
 white="#d9dee3"
