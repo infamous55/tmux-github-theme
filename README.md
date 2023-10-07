@@ -11,6 +11,16 @@
 
 This is a port of the GitHub color schemes for the [tmux](https://github.com/tmux/tmux/wiki) terminal multiplexer.
 
+## Showcase
+
+https://github.com/infamous55/tmux-github-theme/assets/57194777/10ec28ce-a748-48ff-a0e7-95b957720010
+
+The setup from the showcase video includes:
+
+- **Terminal Emulator**: [Black Box](https://gitlab.gnome.org/raggesilver/blackbox), configured with the [GitHub Dark High Contrast theme](https://github.com/infamous55/blackbox-github-theme).
+- **Text Editor**: [Neovim](https://neovim.io/) with the [GitHub Dark High Contrast](https://github.com/projekt0n/github-nvim-theme) theme and [Lualine](https://github.com/nvim-lualine/lualine.nvim) integration.
+- **Terminal Multiplexer**: [Tmux](https://github.com/tmux/tmux/wiki), customized with the [GitHub Dark High Contrast color palette](https://github.com/infamous55/tmux-github-theme).
+
 ## Installation
 
 To install this theme, simply list it as a plugin using the [tpm](https://github.com/tmux-plugins/tpm) package manager in your tmux configuration file.
